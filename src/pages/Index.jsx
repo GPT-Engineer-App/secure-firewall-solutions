@@ -38,15 +38,17 @@ const Index = () => {
           <Heading textAlign="center" mb={8}>
             关于我们
           </Heading>
-          <SimpleGrid columns={2} spacing={8}>
-            <Box>
-              <Image src="https://images.unsplash.com/photo-1496851473196-e26508c21494?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxjb21wYW55JTIwYnVpbGRpbmd8ZW58MHx8fHwxNzEyMzEwMDgwfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="公司大楼" />
-            </Box>
-            <Box>
+          <Box display="flex">
+            <Box flex="1" pr={8}>
+              <Image src="https://images.unsplash.com/photo-1496851473196-e26508c21494?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxjb21wYW55JTIwYnVpbGRpbmd8ZW58MHx8fHwxNzEyMzEwMDgwfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="公司大楼" mb={4} />
               <Text mb={4}>网安科技是一家专注于网络安全领域的高新技术企业。公司拥有一支经验丰富、技术过硬的研发团队，致力于为客户提供先进可靠的网络安全产品和解决方案。</Text>
-              <Text>我们的安全防火墙、入侵检测、威胁情报等产品，可以全方位保护客户的网络环境，抵御各种网络攻击和威胁。同时，我们还为不同行业客户提供定制化的安全解决方案，满足客户的个性化需求。</Text>
             </Box>
-          </SimpleGrid>
+            <Box flex="1">
+              <Text mb={4}>我们的安全防火墙、入侵检测、威胁情报等产品，可以全方位保护客户的网络环境，抵御各种网络攻击和威胁。同时，我们还为不同行业客户提供定制化的安全解决方案，满足客户的个性化需求。</Text>
+              <Text mb={4}>公司成立以来，已为上百家政企客户提供了优质的网络安全服务，获得客户的一致好评。我们将继续秉承"专业、创新、诚信"的理念，为客户的网络安全保驾护航。</Text>
+              <Text>网安科技愿与各界朋友携手合作、共创未来。我们热忱欢迎新老客户莅临指导，共商网络安全发展大计。</Text>
+            </Box>
+          </Box>
         </Container>
       </Box>
 
