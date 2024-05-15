@@ -13,7 +13,7 @@ const Index = () => {
               网安科创
             </Heading>
             <Flex color="white">
-              <Text mx={4}>首页Home </Text>
+              <Text mx={4}>首页</Text>
               <Text mx={4}>产品</Text>
               <Text mx={4}>解决方案</Text>
               <Text mx={4}>合作伙伴</Text>
