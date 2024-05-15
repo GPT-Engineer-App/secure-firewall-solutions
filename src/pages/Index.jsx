@@ -10,7 +10,7 @@ const Index = () => {
         <Container maxW="container.lg">
           <Flex align="center" justify="space-between">
             <Heading as="h1" color="white" size="lg">
-              网安科技
+              网安科创
             </Heading>
             <Flex color="white">
               <Text mx={4}>首页</Text>
